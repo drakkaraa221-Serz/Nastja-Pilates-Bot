@@ -7,7 +7,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # =========================
-TOKEN = "7227595822:AAGs-eSy0FGEFMK3UU68Ab9I6846bBCdj3s"
+TOKEN = os.getenv("TOKEN")
 ADMIN_CHAT_ID = -1003833370596  # ВСТАВЬ ID АДМИН-ЧАТА
 # =========================
 
